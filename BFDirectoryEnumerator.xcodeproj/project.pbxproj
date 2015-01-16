@@ -12,6 +12,7 @@
 		107769871A6958BB001F0A0B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 107769861A6958BB001F0A0B /* Images.xcassets */; };
 		1077698A1A6958BB001F0A0B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 107769881A6958BB001F0A0B /* MainMenu.xib */; };
 		107769961A6958BB001F0A0B /* BFDirectoryEnumeratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 107769951A6958BB001F0A0B /* BFDirectoryEnumeratorTests.m */; };
+		10F5A0C01A695BFE003D28AE /* BFDirectoryEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F5A0BF1A695BFE003D28AE /* BFDirectoryEnumerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		1077698F1A6958BB001F0A0B /* BFDirectoryEnumeratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BFDirectoryEnumeratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		107769941A6958BB001F0A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		107769951A6958BB001F0A0B /* BFDirectoryEnumeratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BFDirectoryEnumeratorTests.m; sourceTree = "<group>"; };
+		10F5A0BE1A695BFE003D28AE /* BFDirectoryEnumerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFDirectoryEnumerator.h; sourceTree = "<group>"; };
+		10F5A0BF1A695BFE003D28AE /* BFDirectoryEnumerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFDirectoryEnumerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,7 @@
 		1077697E1A6958BB001F0A0B /* BFDirectoryEnumerator */ = {
 			isa = PBXGroup;
 			children = (
+				10F5A0BD1A695BDE003D28AE /* SourceFiles */,
 				107769811A6958BB001F0A0B /* AppDelegate.h */,
 				107769821A6958BB001F0A0B /* AppDelegate.m */,
 				107769861A6958BB001F0A0B /* Images.xcassets */,
@@ -109,6 +113,15 @@
 				107769941A6958BB001F0A0B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10F5A0BD1A695BDE003D28AE /* SourceFiles */ = {
+			isa = PBXGroup;
+			children = (
+				10F5A0BE1A695BFE003D28AE /* BFDirectoryEnumerator.h */,
+				10F5A0BF1A695BFE003D28AE /* BFDirectoryEnumerator.m */,
+			);
+			name = SourceFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +225,7 @@
 			files = (
 				107769851A6958BB001F0A0B /* main.m in Sources */,
 				107769831A6958BB001F0A0B /* AppDelegate.m in Sources */,
+				10F5A0C01A695BFE003D28AE /* BFDirectoryEnumerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +412,7 @@
 				1077699B1A6958BB001F0A0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1077699C1A6958BB001F0A0B /* Build configuration list for PBXNativeTarget "BFDirectoryEnumeratorTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +421,7 @@
 				1077699E1A6958BB001F0A0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
