@@ -1,4 +1,4 @@
-# BFDrectoryEnumerator
+# BFDirectoryEnumerator
 Enumerate directories in breadth first fashion. iOS and OSX.
 
 Download and run the sample project to see the urls of your Home Directory printed in Breadth first manner in Xcode's log.
