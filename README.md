@@ -11,7 +11,7 @@ NSDirectoryEnumerator enumerates directories in depth first manner. In a recent 
 Its a NSOperation Subclass. You can add it to a NSOperationQueue or just call start on an instance of its object.
 
 ####Add It
-Add these two files in your project.
+Add these two files to your project.
 #####BFDirectoryEnumerator.h
 #####BFDirectoryEnumerator.h
 
