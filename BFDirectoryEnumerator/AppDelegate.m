@@ -17,10 +17,23 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    
+    [self setBFDirectoryEnumerator:[BFDirectoryEnumerator enumeratorWithDirectoryURL:[NSURL URLWithString:NSHomeDirectory()] withOptions:NSDirectoryEnumerationSkipsHiddenFiles]];
+    [[self bFDirectoryEnumerator]setDelegate:self];
+    [[self bFDirectoryEnumerator]start];
+     
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
     // Insert code here to tear down your application
 }
-
+#pragma mark BFDirectoryEnumerator Delegate Methods
+-(void)bFDirectoryEnumerator:(BFDirectoryEnumerator *)enumerator didScanFileWithURL:(NSURL *)url
+{
+    NSLog(@"%@",url);
+}
+-(void)bfDirectoryEnumerator:(BFDirectoryEnumerator *)enumerator didFailWithError:(NSError *)error
+{
+    
+}
 @end

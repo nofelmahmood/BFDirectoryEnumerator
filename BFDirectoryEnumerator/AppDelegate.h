@@ -7,9 +7,9 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "BFDirectoryEnumerator.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
-
-
+@interface AppDelegate : NSObject <NSApplicationDelegate,BFDirectoryEnumeratorDelegate>
+@property(strong,nonatomic)BFDirectoryEnumerator *bFDirectoryEnumerator;
 @end
 

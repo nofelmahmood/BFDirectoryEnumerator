@@ -23,7 +23,7 @@ NSString* const BFDirectoryEnumeratorURLKey=@"BFDirectoryEnumeratorURLKey";
 
     return self;
 }
-+(BFDirectoryEnumerator*)enumeratorWithBFDirectoryURL:(NSURL*)url withOptions:(NSDirectoryEnumerationOptions)options
++(BFDirectoryEnumerator*)enumeratorWithDirectoryURL:(NSURL*)url withOptions:(NSDirectoryEnumerationOptions)options
 {
     BFDirectoryEnumerator *bfDirectoryEnumerator=[[BFDirectoryEnumerator alloc]initWithDirectoryURL:url withOptions:options];
     return bfDirectoryEnumerator;

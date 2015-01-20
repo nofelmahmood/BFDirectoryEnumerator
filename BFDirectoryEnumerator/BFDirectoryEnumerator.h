@@ -23,6 +23,6 @@
 @property(nonatomic,readwrite)NSInteger options;
 
 -(instancetype)initWithDirectoryURL:(NSURL*)url withOptions:(NSDirectoryEnumerationOptions)options NS_DESIGNATED_INITIALIZER;
-+(BFDirectoryEnumerator*)enumeratorWithBFDirectoryURL:(NSURL*)url withOptions:(NSDirectoryEnumerationOptions)options;
++(BFDirectoryEnumerator*)enumeratorWithDirectoryURL:(NSURL*)url withOptions:(NSDirectoryEnumerationOptions)options;
 
 @end
