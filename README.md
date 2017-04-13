@@ -12,8 +12,8 @@ Its a NSOperation Subclass. You can add it to a NSOperationQueue or just call st
 
 #### Add It
 Add these two files to your project.
-#####BFDirectoryEnumerator.h
-#####BFDirectoryEnumerator.h
+##### BFDirectoryEnumerator.h
+##### BFDirectoryEnumerator.m
 
 #### Import It
 ```objective-c
